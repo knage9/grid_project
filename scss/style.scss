@@ -171,6 +171,21 @@ h1{
     margin-top: 200px;
 }
 
+.simple_grid_container{
+  display: grid;
+  grid-template-columns: repeat(2, 500px);
+  grid-gap: 20px;
+  justify-content: center;
+  margin-top: 200px;
+  .txt_1{
+    grid-column: span 1;
+  }
+  .txt_2{
+    grid-column: span 2;
+  }
+}
+
+
 .container {
     display: grid;
     grid-template-columns: repeat(4, 360px);
